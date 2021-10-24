@@ -283,7 +283,9 @@ final修饰数据，表示数据不变，是个常量 final修饰引用，表示
 
 ### 数组array
 
-对应的工具类Arrays包含了sort、copy、binarySearch、asList（不可改变大小的List）等方法 数组时效率最高的容器。在固定尺寸的情况下，一定要用数组 数组的拷贝System.lang.arrayCopy\(\);效率最高。用的事拷贝整块内存的方式 数组的内存模型（二维数组）：int\[\]\[\] scores = new int\[3\]\[2\]; 多维数组的length以最外层的大小为准：socres.length = 3; ![](.gitbook/assets/array.jpg)
+对应的工具类Arrays包含了sort、copy、binarySearch、asList（不可改变大小的List）等方法 数组时效率最高的容器。在固定尺寸的情况下，一定要用数组 数组的拷贝System.lang.arrayCopy\(\);效率最高。用的事拷贝整块内存的方式 数组的内存模型（二维数组）：int\[\]\[\] scores = new int\[3\]\[2\]; 多维数组的length以最外层的大小为准：socres.length = 3; 
+
+![](.gitbook/assets/array.jpg)
 
 ### 访问权限控制
 
